@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1b7b0c19-702d-4b5e-a804-ff4b04beb53f" name="Default Changelist" comment="" />
+    <list default="true" id="1b7b0c19-702d-4b5e-a804-ff4b04beb53f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/Etsy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/EtsyStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EtsyTitle.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +28,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,6 +39,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1eV7SqtBkPK30JKn1a7hEIrQCHt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +49,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -93,26 +111,34 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="340" y="109" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1594396435790" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1594750145970">
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594762273617">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594762273617" />
+    <state x="517" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594759588688">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="517" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594759588688" />
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1594762567867">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145970" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594413931351" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1594750145969">
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567867" />
+    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1594762567866">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145969" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594413931350" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1594750145968">
+    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567866" />
+    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1594762567865">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145968" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594413931349" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1594750145970">
+    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567865" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1594762567867">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145970" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594413931350" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567867" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1594395447438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -121,9 +147,9 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594405429880" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1594405446675">
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1594761910598">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594405446675" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594761910598" />
   </component>
 </project>
