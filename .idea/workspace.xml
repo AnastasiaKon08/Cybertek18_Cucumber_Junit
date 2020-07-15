@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7b0c19-702d-4b5e-a804-ff4b04beb53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/Etsy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/EtsyStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/EtsyTitle.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/Wikipedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/WikipediaStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Wiki.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
@@ -119,26 +116,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594759588688" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1594762567867">
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1594782846319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145970" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567867" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1594762567866">
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846319" />
+    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1594782846318">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145969" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567866" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1594762567865">
+    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846318" />
+    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1594782846317">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145968" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567865" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1594762567867">
+    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846317" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1594782846318">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145970" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594762567867" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846318" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1594395447438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -147,9 +144,13 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594405429880" />
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1594761910598">
+    <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1594782017469">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594761910598" />
+    <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594782017469" />
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1594782640289">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1594782640289" />
   </component>
 </project>
