@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7b0c19-702d-4b5e-a804-ff4b04beb53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/Wikipedia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/WikipediaStepDefinitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Wiki.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/SmartBear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/DataTableStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/SmartBearStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/DataTableExample.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/SmartBear.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/step_definitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_definitions/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/step_definitions/Hooks.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +109,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="340" y="109" key="#Plugins/0.0.1680.1050@0.0.1680.1050" timestamp="1594406031715" />
-    <state x="340" y="109" key="#Project_Structure" timestamp="1594396435790">
+    <state x="340" y="109" key="#Project_Structure" timestamp="1594835598283">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="340" y="109" key="#Project_Structure/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594835598283" />
     <state x="340" y="109" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1594396435790" />
     <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1594762273617">
       <screen x="0" y="0" width="1680" height="1050" />
@@ -116,26 +122,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594759588688" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1594782846319">
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1594840446620">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145970" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846319" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1594782846318">
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594840446620" />
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594782879583" />
+    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1594840446618">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145969" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846318" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1594782846317">
+    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594840446618" />
+    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594782879581" />
+    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1594840446617">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145968" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846317" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1594782846318">
+    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594840446617" />
+    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594782879580" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1594840446619">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594750145970" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594782846318" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594840446619" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594782879582" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1594395447438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -144,9 +150,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594405429880" />
-    <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1594782017469">
+    <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1594835532052">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594835532052" />
     <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594782017469" />
     <state x="421" y="18" width="838" height="1032" key="search.everywhere.popup" timestamp="1594782640289">
       <screen x="0" y="0" width="1680" height="1050" />
