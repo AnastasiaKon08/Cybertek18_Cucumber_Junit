@@ -8,7 +8,11 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 
+import java.util.List;
+
 public class GoogleStepDefinitions {
+
+    GoogleSearchPage googleSearchPage = new GoogleSearchPage();
 
     @Given("User is on the google search page")
     public void user_is_on_the_google_search_page() {
@@ -48,7 +52,7 @@ public class GoogleStepDefinitions {
     @When("User searches {string}")
     public void userSearches(String searchValue) {
         //creating page object
-        GoogleSearchPage googleSearchPage = new GoogleSearchPage();
+
 
         //sending value into search box using page object
         googleSearchPage.searchBox.sendKeys(searchValue + Keys.ENTER);
@@ -77,5 +81,17 @@ public class GoogleStepDefinitions {
     public void userShouldSeeAboutLinkAndClicksOnIt() {
         GoogleSearchPage googleSearchPage = new GoogleSearchPage();
         googleSearchPage.aboutLink.click();
+    }
+
+    @Then("User should see six links in the footer")
+    public void user_should_see_six_links_in_the_footer(List<String> linkStrings) {
+        int expectedSize = linkStrings.size();
+        int actualSize = googleSearchPage.footerLinks.size();
+
+        System.out.println("linkStrings = " + linkStrings);
+
+        Assert.assertEquals(expectedSize, actualSize);
+
+
     }
 }

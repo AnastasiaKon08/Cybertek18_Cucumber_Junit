@@ -9,6 +9,7 @@ public class DataTableStepDefinitions {
     @Then("User should see below words displayed")
     public void userShouldSeeBelowWordsDisplayed(List<String> fruitList) {
 
-
+        System.out.println("fruitList.size() = " + fruitList.size());
+        System.out.println(fruitList);
     }
 }
