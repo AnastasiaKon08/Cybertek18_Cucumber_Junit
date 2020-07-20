@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7b0c19-702d-4b5e-a804-ff4b04beb53f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ExcelPractice.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GasMileageCalculatorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ExcelRead.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/ExcelWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/GasMileageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/GasMileageTestData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/FailedTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/runners/FailedTestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +49,41 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/testdata" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.FailedTestRunner">
-    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/testdata" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GasMileageTest">
+    <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ExcelRead" />
       <module name="Cybertek18_Cucumber_Junit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.runners.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.cybertek.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.runners.CukesRunner" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.ExcelWrite" />
+      <module name="Cybertek18_Cucumber_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -82,10 +103,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GasMileageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cybertek18_Cucumber_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GasMileageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GasMileageTest.gasMileageCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cybertek18_Cucumber_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.GasMileageTest" />
+      <option name="METHOD_NAME" value="gasMileageCalculatorTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GasMileageTest" />
+        <item itemvalue="JUnit.GasMileageTest.gasMileageCalculatorTest" />
+        <item itemvalue="Application.ExcelWrite" />
+        <item itemvalue="Application.ExcelRead" />
         <item itemvalue="JUnit.FailedTestRunner" />
-        <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +167,19 @@
       <option name="presentableId" value="Default" />
       <updated>1594394908497</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cucumber">
+      <created>1595029938940</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595029938940</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cucumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cucumber" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="109" key="#Plugins" timestamp="1594406031715">
@@ -132,34 +199,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="517" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1594759588688" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom" timestamp="1595005540939">
+    <state x="400" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595278994778">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594856263568" />
-    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595005540939" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center" timestamp="1595005540938">
+    <state x="400" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595278994778" />
+    <state x="363" y="63" key="CommitChangelistDialog2" timestamp="1595029938464">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594856263567" />
-    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595005540938" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left" timestamp="1595005540937">
+    <state x="363" y="63" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1595029938464" />
+    <state width="1628" height="332" key="GridCell.Tab.0.bottom" timestamp="1595283599862">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594856263566" />
-    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595005540937" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right" timestamp="1595005540938">
+    <state width="1628" height="332" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599862" />
+    <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942493" />
+    <state width="1628" height="332" key="GridCell.Tab.0.center" timestamp="1595283599860">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1594856263567" />
-    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595005540938" />
+    <state width="1628" height="332" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599860" />
+    <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942492" />
+    <state width="1628" height="332" key="GridCell.Tab.0.left" timestamp="1595283599859">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="332" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599859" />
+    <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942492" />
+    <state width="1628" height="332" key="GridCell.Tab.0.right" timestamp="1595283599861">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1628" height="332" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599861" />
+    <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942493" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1594395447438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="233" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594395447438" />
-    <state x="463" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1594405429880">
+    <state x="463" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1595091629710">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594405429880" />
+    <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595091629710" />
     <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1594835532052">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
