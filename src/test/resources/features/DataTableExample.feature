@@ -1,6 +1,6 @@
 Feature: Example of how to implement data table
 
-  @dataTable
+   @smoke @dataTable
   Scenario: something happens
       # Given User does something
     Then User should see below words displayed

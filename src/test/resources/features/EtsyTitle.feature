@@ -1,9 +1,9 @@
-@etsy
+@smoke @etsy
 Feature: Etsy Title Verification
   Background:
     Given User is on https://www.etsy.com
 
-  @title
+    @title
   Scenario:
     Then User sees title as expected
 

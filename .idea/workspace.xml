@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b7b0c19-702d-4b5e-a804-ff4b04beb53f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExcelPractice.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/pages/GasMileageCalculatorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ExcelRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/ExcelWrite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/GasMileageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/testdata/GasMileageTestData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testdata/~$GasMileageTestData.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rerun.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/rerun.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testdata/GasMileageTestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testdata/GasMileageTestData.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +60,18 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GasMileageTest">
-    <configuration name="ExcelRead" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ExcelRead" />
+  <component name="RunManager" selected="Cucumber java.Feature: SmartBear">
+    <configuration name="Feature: SmartBear" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SmartBear.feature" />
+      <option name="GLUE" value="com.cybertek.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cybertek18_Cucumber_Junit" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: SmartBear" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcelWrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.ExcelWrite" />
+    <configuration name="Feature: Wiki" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Wiki.feature" />
+      <option name="GLUE" value="com.cybertek.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Cybertek18_Cucumber_Junit" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Wiki" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FailedTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Cybertek18_Cucumber_Junit" />
       <extension name="coverage">
         <pattern>
@@ -97,7 +106,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.cybertek.runners" />
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.runners.FailedTestRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.runners.CukesRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: SmartBear" />
+        <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber java.Feature: Wiki" />
         <item itemvalue="JUnit.GasMileageTest" />
         <item itemvalue="JUnit.GasMileageTest.gasMileageCalculatorTest" />
-        <item itemvalue="Application.ExcelWrite" />
-        <item itemvalue="Application.ExcelRead" />
-        <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -177,6 +186,19 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cucumber" />
     <option name="LAST_COMMIT_MESSAGE" value="Cucumber" />
@@ -207,34 +229,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="363" y="63" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1595029938464" />
-    <state width="1628" height="332" key="GridCell.Tab.0.bottom" timestamp="1595283599862">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1628" height="332" key="GridCell.Tab.0.bottom" timestamp="1595549388458">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1628" height="332" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599862" />
+    <state width="1628" height="332" key="GridCell.Tab.0.bottom/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283788062" />
     <state width="1628" height="354" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942493" />
-    <state width="1628" height="332" key="GridCell.Tab.0.center" timestamp="1595283599860">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1628" height="332" key="GridCell.Tab.0.bottom/0.23.1680.941@0.23.1680.941" timestamp="1595549388458" />
+    <state width="1628" height="332" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1595532589677" />
+    <state width="1628" height="332" key="GridCell.Tab.0.center" timestamp="1595549388457">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1628" height="332" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599860" />
+    <state width="1628" height="332" key="GridCell.Tab.0.center/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283788061" />
     <state width="1628" height="354" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942492" />
-    <state width="1628" height="332" key="GridCell.Tab.0.left" timestamp="1595283599859">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1628" height="332" key="GridCell.Tab.0.center/0.23.1680.941@0.23.1680.941" timestamp="1595549388457" />
+    <state width="1628" height="332" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1595532589676" />
+    <state width="1628" height="332" key="GridCell.Tab.0.left" timestamp="1595549388456">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1628" height="332" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599859" />
+    <state width="1628" height="332" key="GridCell.Tab.0.left/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283788060" />
     <state width="1628" height="354" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942492" />
-    <state width="1628" height="332" key="GridCell.Tab.0.right" timestamp="1595283599861">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="1628" height="332" key="GridCell.Tab.0.left/0.23.1680.941@0.23.1680.941" timestamp="1595549388456" />
+    <state width="1628" height="332" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1595532589675" />
+    <state width="1628" height="332" key="GridCell.Tab.0.right" timestamp="1595549388457">
+      <screen x="0" y="23" width="1680" height="941" />
     </state>
-    <state width="1628" height="332" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283599861" />
+    <state width="1628" height="332" key="GridCell.Tab.0.right/0.0.1680.1050/1680.0.3840.2160@0.0.1680.1050" timestamp="1595283788062" />
     <state width="1628" height="354" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1595029942493" />
+    <state width="1628" height="332" key="GridCell.Tab.0.right/0.23.1680.941@0.23.1680.941" timestamp="1595549388457" />
+    <state width="1628" height="332" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1595532589677" />
     <state x="233" y="76" key="SettingsEditor" timestamp="1594395447438">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="233" y="76" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1594395447438" />
-    <state x="463" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1595091629710">
+    <state x="463" y="319" key="com.intellij.ide.util.TipDialog" timestamp="1595549484693">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595091629710" />
+    <state x="463" y="319" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1595549484693" />
     <state x="596" y="440" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1594835532052">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

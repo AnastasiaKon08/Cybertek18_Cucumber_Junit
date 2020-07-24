@@ -1,4 +1,4 @@
-@loginWithBackground
+@smoke @loginWithBackground
 Feature: Login Feature
   As a user, I should be able to login with correct credentials to different accounts, and dashboard should be displayed.
 
